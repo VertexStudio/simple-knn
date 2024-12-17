@@ -23,6 +23,8 @@
 #define __CUDACC__
 #include <cooperative_groups.h>
 #include <cooperative_groups/reduce.h>
+#include <cfloat>
+
 
 namespace cg = cooperative_groups;
 
